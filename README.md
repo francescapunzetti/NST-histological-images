@@ -1,1 +1,1 @@
-# NST-hystological-images
+# NST-histological-images
