@@ -39,8 +39,8 @@ Firstly, using `NST.py` choose as input for the neural network a pair images lab
 <table cellspacing="2" cellpadding="2" width="600" border="0">
 <tbody>
 <tr>
-<td valign="top" width="300"><a href="https://imgbb.com/"><img src="https://i.ibb.co/5kH6cN2/mid-colored.jpg" alt="mid-colored" align=”center” border="0"></a></td>
-<td valign="top" width="300"><a href="https://imgbb.com/"><img src="https://i.ibb.co/W2V1yb7/mid-white.jpg" alt="mid-white" align=”center” border="0"></a></td>
+<td valign="top" width="300"><img src="https://i.ibb.co/5kH6cN2/mid-colored.jpg" alt="mid-colored" align=”center” border="0"></a></td>
+<td valign="top" width="300"><img src="https://i.ibb.co/W2V1yb7/mid-white.jpg" alt="mid-white" align=”center” border="0"></a></td>
 </tr>
 </tbody>
 </table>
@@ -50,4 +50,6 @@ The name associated to the generated image is the `number of epochs + 'epochs'.j
 There will be also a plot of the total loss in function of the number of iterations. 
 
 After this, to evaluate the quality of the generated image, open `SSIM.py`, instert as `original` and `new` the name of the original stained slide and the name of the generated image and run the script. 
-The output will be an image that show the two images in grey scale with the respective SSIM. 
+The output will be an image that show the two images in grey scale with the respective SSIM, as shown in the example:
+<center><img src="https://i.ibb.co/kcWfxBg/mid.png" align="middle" alt="mid" width="300" border="0">
+
