@@ -45,7 +45,7 @@ Firstly, using `NST.py` choose as input for the neural network a pair images lab
 </tbody>
 </table>
 </div>
-The output of the neural style transfer will be saved in the folder `images` .
+The output of the neural style transfer will be saved in the folder  `images` .
 The name associated to the generated image is the `number of epochs + 'epochs'.jpg`. 
 There will be also a plot of the total loss in function of the number of iterations. 
 
