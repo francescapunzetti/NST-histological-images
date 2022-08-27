@@ -45,11 +45,12 @@ Firstly, using `NST.py` choose as input for the neural network a pair images lab
 </tbody>
 </table>
 </div>
-The output of the neural style transfer will be saved in the folder  `images` .
-The name associated to the generated image is the `number of epochs + 'epochs'.jpg`. 
+The output of the neural style transfer will be saved in the folder *images* .
+The name associated to the generated image is the *number of epochs + 'epochs'.jpg*. 
 There will be also a plot of the total loss in function of the number of iterations. 
 
 After this, to evaluate the quality of the generated image, open `SSIM.py`, instert as `original` and `new` the name of the original stained slide and the name of the generated image and run the script. 
 The output will be an image that show the two images in grey scale with the respective SSIM, as shown in the example:
-<center><img src="https://i.ibb.co/kcWfxBg/mid.png" align="middle" alt="mid" width="300" border="0"></center>
-
+<div align='center'>
+<img src="https://i.ibb.co/kcWfxBg/mid.png" align="middle" alt="mid" width="300" border="0">
+</div>
