@@ -51,5 +51,5 @@ There will be also a plot of the total loss in function of the number of iterati
 
 After this, to evaluate the quality of the generated image, open `SSIM.py`, instert as `original` and `new` the name of the original stained slide and the name of the generated image and run the script. 
 The output will be an image that show the two images in grey scale with the respective SSIM, as shown in the example:
-<center><img src="https://i.ibb.co/kcWfxBg/mid.png" align="middle" alt="mid" width="300" border="0">
+<center><img src="https://i.ibb.co/kcWfxBg/mid.png" align="middle" alt="mid" width="300" border="0"></center>
 
