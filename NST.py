@@ -153,7 +153,7 @@ def result_saver(iteration):
   now = datetime.now()
   now = now.strftime("%Y%m%d_%H%M%S")
   model_name = 'best_model'
-  image_name = str(iteration)+'generated' +'.jpg'
+  image_name = 'images/'+ str(iteration)+'generated' +'.jpg'
 
   # Save image
   img = deprocess_image(generated.numpy())
