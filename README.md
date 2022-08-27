@@ -14,15 +14,24 @@ This is useful when evaluating the result of the generated images, because in th
  - `images`
  - `NST.py`
  - `SSIM.py`
+ - `requirements.txt`
 
 The folder `images` contains all the images, in particular the ones used as input, which are titled *internal*, *ext* and *mid*, to distinguish the ROIs, with the adjective *colored* or  *white* based on whether the source image is stained or not. 
 In this folder are also contained the generated images. 
+
+The file `requirements.txt` contains packages useful for the the project.
 
 `NST.py` is the Neural Style Transfer python script. 
   All the parameters are set in order to obtain the best result for the generated images. 
 
  `SSIM.py` calculate the Structural Index Similarity between the generated image and the original stained one. 
- 
+ ## Installation 
+ To install the packages usefull for the project clone the repository and use pip: 
+ ```
+git clone https://github.com/francescapunzetti/NST-histological-images.git
+cd AnomalousDiffusion
+pip install -r requirements.txt
+```
 ## How to use the project
 First download `NST.py` 
 <div align='center'>
@@ -35,3 +44,4 @@ First download `NST.py`
 </tbody>
 </table>
 </div>
+
