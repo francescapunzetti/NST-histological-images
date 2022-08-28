@@ -2,10 +2,10 @@
 ## Project
 
 This project consists into creating a histological slide by a stain-style transfer.
-That's can be done using a Neural Style Transfer network and using as style image a histological slide stained with hematoxylin-eosin and as content image a slide with no stain. 
+This can be done using a Neural Style Transfer network and using as style image a histological slide stained with hematoxylin-eosin and as content image a slide with no stain. 
 
 The image were preprocessed in order to be coincident, so the only difference between the two image is the presence of the stain. 
-This is useful when evaluating the result of the generated images, because in that's way is possible to use the *Structural Similatiry Index*. 
+This is useful when evaluating the result of the generated images, since in this way we are able to use the *Structural Similatiry Index*. 
 
 ## Table of contents
 
@@ -33,7 +33,7 @@ cd NST-histological-images
 pip install -r requirements.txt
 ```
 In this way the whole repository in cloned.
-## How to use the project
+## How to run the project
 Firstly, using `NST.py` choose as input for the neural network a pair images labeled with *white* and *colored*, for example the two shown below:
 <div align='center'>
 <table cellspacing="2" cellpadding="2" width="600" border="0">
