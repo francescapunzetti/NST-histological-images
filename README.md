@@ -24,7 +24,7 @@ The file `requirements.txt` contains packages useful for the the project.
 `NST.py` is the Neural Style Transfer python script. 
   All the parameters are set in order to obtain the best result for the generated images. 
 
- `SSIM.py` calculate the Structural Index Similarity between the generated image and the original stained one. 
+ `SSIM.py` calculates the Structural Index Similarity between the generated image and the original stained one. 
  ## Installation 
  To install the packages usefull for the project clone the repository and use pip: 
  ```
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ```
 In this way the whole repository in cloned.
 ## How to run the project
-Firstly, using `NST.py` choose as input for the neural network a pair images labeled with *white* and *colored*, for example the two shown below:
+Firstly, using `NST.py` choose as input for the neural network a pair of images labeled with *white* and *colored*, for example the two shown below:
 <div align='center'>
 <table cellspacing="2" cellpadding="2" width="600" border="0">
 <tbody>
